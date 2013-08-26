@@ -42,8 +42,7 @@ function nucleoaquimesmo_theme_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_image_size( 'home-projetos', 320, 250, true ); //(cropped)
 	add_image_size( 'header-projetos', 1280, 500, true ); //(cropped)
-	add_image_size( 'projetos', 300, 550, true ); //(cropped)
-	add_image_size( 'archive-projetos', 550, 300, true ); //(cropped)
+	add_image_size( 'projetos', 300, 300, true ); //(cropped)
 	
 
 	/**
@@ -130,6 +129,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+//Adiciona o CustomPostType Agenda
+require_once ( get_stylesheet_directory() . '/agenda/requires-agenda.php' );
 
 // Adiciona a função the_excerpt às Páginas
 	add_post_type_support( 'page', 'excerpt' );
