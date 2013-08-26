@@ -43,6 +43,7 @@ function nucleoaquimesmo_theme_setup() {
 	add_image_size( 'home-projetos', 320, 250, true ); //(cropped)
 	add_image_size( 'header-projetos', 1280, 500, true ); //(cropped)
 	add_image_size( 'projetos', 300, 300, true ); //(cropped)
+	add_image_size( 'teste', 100, 100 );
 	
 
 	/**
