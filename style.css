@@ -682,19 +682,18 @@ float: left;
 }
 
 .cada-projeto-archive {
-	width: 33.3%;
-	max-width: 940px;
+	width: 100%;
+	max-width: 960px;
 	height: 300px;
-	margin: 0;
+	margin: 0 0 30px 0;
 	overflow: hidden;
 	position: relative;
-	float: left;
 }
 
 .cada-projeto-archive:hover {
-	opacity:0.85;
-	-moz-opacity: 0.85;
-	filter: alpha(opacity=85);
+	opacity:0.95;
+	-moz-opacity: 0.95;
+	filter: alpha(opacity=95);
 }
 
 .thumb-projetos-archive {
@@ -703,8 +702,8 @@ float: left;
 .titulo-cada-projeto-archive {
 	background: none repeat scroll 0 0 rgba(140, 60, 30, 0.8);
     font-size: 2em;
-    margin-left: 1em;
-    margin-top: 1em;
+    right: 1em;
+    top: 1em;
     padding: 0.2em;
 	position: absolute;
 	text-transform: uppercase;
@@ -712,6 +711,39 @@ float: left;
 
 .titulo-cada-projeto-archive a {
 	color: #FFF;
+}
+
+.thumb-cada-projeto-archive {
+	width: 58%;
+	float: left;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+}
+
+.content-cada-projeto-archive {
+	width: 42%;
+	float: left;
+	height: 280px;
+	background: #fbead8;
+	position: relative;
+}
+
+.content-cada-projeto-archive p {
+	padding: 1.5em 2em 10px;
+}
+
+.mais-cada-projeto-archive {
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 100px;
+}
+
+.mais-cada-projeto-archive .mais {
+	line-height: 38px;
 }
 
 h2.title-projetos {

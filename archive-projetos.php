@@ -26,22 +26,29 @@
 			while ( $loop_cpt_projetos->have_posts() ) : $loop_cpt_projetos->the_post();
 			?>
 
-                <div class="cada-projeto-archive">
+				<?php $class = "cada-projeto-archive" ?>
 
-				<div class="thumb-cada-projeto-archive">
-                    <div class="titulo-cada-projeto-archive">
+                <div class="<?php echo $class; ?>">
+
+				<div <?php thumbnail_bg( 'archive-projetos' ); ?> class="thumb-<?php echo $class; ?>">
+                    <div class="titulo-<?php echo $class; ?>">
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    </div><!-- .titulo-cada-projeto-archive -->
-				</div><!-- .thumb-cada-projeto-archive -->
+                    </div><!-- .titulo-<?php echo $class; ?> -->
+				</div><!-- .thumb-<?php echo $class; ?> -->
 
-				<div class="content-cada-projeto-archive">
-				</div><!-- .content-cada-projeto-archive -->
+				<div class="content-<?php echo $class; ?>">
+					<?php the_excerpt(); ?>
+				<div class="mais-<?php echo $class; ?>">
+				<a class="a-mais" href="<?php echo home_url( 'nucleo-aqui-mesmo' ) ?>">
+					<div class="mais">
+						Mais
+					</div><!-- .mais -->
+					</a>
+				</div><!-- .mais-<?php echo $class; ?> -->
+				</div><!-- .content-<?php echo $class; ?> -->
 
+                </div><!-- .<?php echo $class; ?> -->
 
-                    <div class="thumb-projetos-archive">
-					<a href="<?php the_permalink(); ?>"></a>
-                    </div><!-- .thumb-projetos-archive -->
-                </div><!-- .cada-projeto-archive -->
                 <?php
                 // Fim do Loop
 				endwhile;
@@ -52,5 +59,7 @@
             
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
+
+<?php unset( $class ); ?>
 
 <?php get_footer();?>
