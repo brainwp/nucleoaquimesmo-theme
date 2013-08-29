@@ -142,6 +142,40 @@ function ag_permalink() {
 }
 
 
+// Função que imprime o local do evento, deve ser usado dentro de um loop
+function ag_local() {
+	global $post;
+	$ag_local = get_post_meta( $post->ID,'agenda_local', true );
+	echo $ag_local;
+}
+// Função que imprime o Endereço do evento, deve ser usado dentro de um loop
+function ag_endereco() {
+	global $post;
+	$ag_endereco = get_post_meta( $post->ID,'agenda_endereco', true );
+	echo $ag_endereco;
+}
+
+// Função que imprime o Bairro do evento, deve ser usado dentro de um loop
+function ag_bairro() {
+	global $post;
+	$ag_bairro = get_post_meta( $post->ID,'agenda_bairro', true );
+	echo $ag_bairro;
+}
+
+// Função que imprime a cidade do evento, deve ser usado dentro de um loop
+function ag_cidade() {
+	global $post;
+	$ag_cidade = get_post_meta( $post->ID,'agenda_cidade', true );
+	echo $ag_cidade;
+}
+
+// Função que imprime o Estado do evento, deve ser usado dentro de um loop
+function ag_estado() {
+	global $post;
+	$ag_estado = get_post_meta( $post->ID,'agenda_estado', true );
+	echo $ag_estado;
+}
+
 // Função para imprimir o thumbnail
 function ag_thumbnail( $tamanho = 'thumbnail' ) {
 	global $post;
