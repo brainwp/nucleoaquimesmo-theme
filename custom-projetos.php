@@ -46,7 +46,7 @@ function create_post_type_projetos() {
 		 'slug' => 'projetos',
 		 'with_front' => false,
 	    ),
-	    'capability_type' => 'page',
+	    'capability_type' => 'post',
 	    'hierarchical' => true,
 	    'menu_position' => null,
 	    'supports' => array('title','editor','author','thumbnail','excerpt','page-attributes')
