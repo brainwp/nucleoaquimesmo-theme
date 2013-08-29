@@ -3,7 +3,7 @@
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			
-			<div id="single-navigation">
+			<div id="single-navigation-feira">
 				<?php
 				  if( $post->post_parent )
 				  $children = wp_list_pages( "post_type=projetos&title_li=&child_of=".$post->post_parent."&echo=0" );

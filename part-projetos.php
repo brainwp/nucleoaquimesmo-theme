@@ -20,7 +20,7 @@
                     <div class="entry-content">
 
                     	<h2>
-						<?php echo get_the_title($post->post_parent); ?> / <?php the_title(); ?>
+						<?php the_title(); ?>
 						<?php if ( $post->post_parent ) echo '<a class="link-voltar" href="'. get_permalink( $post->post_parent ) .'"> / Voltar</a>'; ?>
                         </h2>
 		

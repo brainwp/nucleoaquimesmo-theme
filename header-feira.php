@@ -33,7 +33,7 @@
 		</nav><!-- #site-navigation -->
 
 		<div id="header">
-			<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<a href="<?php echo home_url( '/projetos/de-segunda-a-sexta-feira/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
             <div id="logo-header"></div>
             </a>
 		</div><!-- /#header -->
