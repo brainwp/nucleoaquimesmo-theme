@@ -172,3 +172,17 @@ function is_tree($pid) {      // $pid = The ID of the page we're looking for pag
 	else 
                return false;  // we're elsewhere
 };
+
+function wps_parent_post(){
+  global $post;
+  if ($post->post_parent){
+	$ancestors=get_post_ancestors($post->ID);
+	$root=count($ancestors)-1;
+	$parent = $ancestors[$root];
+  } else {
+	$parent = $post->ID;
+  }
+  if($post->ID != $parent){
+      return $parent;
+  }
+}

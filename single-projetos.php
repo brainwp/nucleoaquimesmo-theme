@@ -1,8 +1,11 @@
 <?php
-if ( $post->post_parent == '179' ) {
+$id_in = array_search('179', $post->ancestors);
+
+/*179*/
+if ( $post->post_parent == '179' || $id_in == 1 ) {
 	get_header( 'feira' );
 }
-elseif (is_single( 'de-segunda-a-sexta-feira' )) {
+elseif (is_single( '179' )) {
 	get_header( 'feira' );
 }
 else {
@@ -11,10 +14,10 @@ else {
 ?>
 
 <?php
-if ( $post->post_parent == '179' ) {
+if ( $post->post_parent == '179' || $id_in == 1) {
 	get_template_part( 'part-feira' );
 }
-elseif (is_single( 'de-segunda-a-sexta-feira' )) {
+elseif (is_single( '179' )) {
 	get_template_part( 'part-feira' );
 }
 else {
@@ -23,10 +26,10 @@ else {
 ?>
 
 <?php
-if ( $post->post_parent == '179' ) {
+if ( $post->post_parent == '179' || $id_in >= 1) {
 	get_footer( 'feira' );
 }
-elseif (is_single( 'de-segunda-a-sexta-feira' )) {
+elseif (is_single( '179' )) {
 	get_footer( 'feira' );
 }
 else {
