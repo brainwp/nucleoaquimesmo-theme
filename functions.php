@@ -59,7 +59,9 @@ function nucleoaquimesmo_theme_setup() {
 		'default-image' => '',
 	) ) );
 }
-endif; // nucleoaquimesmo_theme_setup
+endif; 
+
+// nucleoaquimesmo_theme_setup
 add_action( 'after_setup_theme', 'nucleoaquimesmo_theme_setup' );
 
 /**

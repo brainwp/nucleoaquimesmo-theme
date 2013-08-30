@@ -187,7 +187,7 @@ function ag_titulo() {
 	echo get_the_title();
 }
 
-/*
+
 // Adiciona um filtro aos posts da Agenda
 	function agenda_admin_posts_filter_restrict_manage_posts () {
 		//only add filter to post type you want
@@ -221,8 +221,7 @@ function ag_titulo() {
 		}
 	}
 	add_action( 'restrict_manage_posts', 'agenda_admin_posts_filter_restrict_manage_posts' );
-	*/
-	/*
+
 	function agenda_posts_filter( $query ){
 		global $post;
 		if ( $post->post_type=='agenda' && is_admin() && isset($_GET['filter_status_post']) && $_GET['filter_status_post'] != '') {
@@ -230,7 +229,6 @@ function ag_titulo() {
 		}
 	}
 	add_filter( 'parse_query', 'agenda_posts_filter' );
-// Fim*/
 
 /*
 // Filtra a lista (WP-ADMIN) de Eventos da Agenda para mostrar apenas os eventos futuros
