@@ -122,7 +122,7 @@ function ag_horario() {
 	$ag_termino = get_post_meta( $post->ID,'agenda_horario_fim', true );
 	echo "<div class=\"das-agenda-archive\">";
 		if (empty($ag_termino))
-	echo "a partir das";
+	echo "As " . $ag_inicio;
 		else
 	echo "das " . $ag_inicio;
 	echo "</div><!-- .das-agenda-archive -->";
