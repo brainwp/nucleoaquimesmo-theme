@@ -25,7 +25,7 @@
 				  <?php echo $children; ?>
 				  </ul>
 				<?php } ?>
-			</div><!-- #single-navigation -->
+			</div><!-- #single-navigation-feira -->
 
                 <article id="single-projetos-feira" >
                     <div class="entry-content">

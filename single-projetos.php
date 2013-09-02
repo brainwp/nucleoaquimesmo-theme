@@ -9,7 +9,7 @@ elseif (is_single( '179' )) {
 	get_header( 'feira' );
 }
 else {
-	get_header( 'projetos' );
+	get_header();
 }
 ?>
 
