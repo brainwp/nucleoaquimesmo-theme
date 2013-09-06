@@ -34,9 +34,7 @@
 						<?php echo get_the_title($post->post_parent); ?> / <?php the_title(); ?>
 						<?php if ( $post->post_parent ) echo '<a class="link-voltar" href="'. get_permalink( $post->post_parent ) .'"> / Voltar</a>'; ?>
                         </h2>
-                        
-                        	<?php if ( count($post->ancestors) == 1) echo wp_list_pages("post_type=projetos&depth=1&title_li=&child_of=".$post->ID."&echo=0"); ?>
-		
+						
                         <?php the_content(); ?>
                         <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'celestial_theme' ), 'after' => '</div>' ) ); ?>
                         <?php edit_post_link( __( 'Clique aqui para Editar&gt;&gt;', 'celestial_theme' ), '<span class="edit-link">', '</span>' ); ?>
