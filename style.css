@@ -494,6 +494,14 @@ body.single-feira {
 background: url(images/bg-feira-03.jpg) fixed center top !important; 
 }
 
+.page-template-page-home-php .sharedaddy {
+display: none;
+}
+
+.post-type-archive-projetos .sharedaddy {
+display: none;
+}
+
 #footer-frill {
 	margin: 100px 0 0 0;
 	height: 12px;

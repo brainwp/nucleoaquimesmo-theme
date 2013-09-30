@@ -49,11 +49,11 @@ function create_post_type_projetos() {
 	    'capability_type' => 'post',
 	    'hierarchical' => true,
 	    'menu_position' => null,
-	    'supports' => array('title','editor','author','thumbnail','excerpt','page-attributes')
+	    'supports' => array('title','editor','author','thumbnail','excerpt','page-attributes'),
+		'taxonomies' => array( 'post_tag' )
 	    )
     );
 
 	flush_rewrite_rules();
 
 }
-

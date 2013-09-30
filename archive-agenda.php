@@ -80,6 +80,8 @@
             			
                 <?php if (function_exists( 'wp_pagenavi' )) { wp_pagenavi(array( 'query' => $loop_cpt_agenda )); } ?>
             
+				<?php echo sharing_display(); ?>
+			
 		</div><!-- #primary .content-area -->
 
 <?php get_footer();?>
