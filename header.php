@@ -33,7 +33,11 @@
 	<?php do_action( 'before' ); ?>
 
 	<header id="masthead" class="site-header" role="banner">
-	<div id="thumb-header-projetos" <?php thumbnail_bg( 'header-projetos' ); ?>>
+	<?php if ( is_post_type_archive( 'projetos' ) ){ ?>
+		<div id="thumb-header-projetos">
+	<?php } else { ?>
+		<div id="thumb-header-projetos" <?php thumbnail_bg( 'header-projetos' ); ?> >
+	<?php } ?>
 
 	<div id="wrapper-masthead">
 		<div class="site-branding">
@@ -41,7 +45,7 @@
 				<a class="a-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>
 				</div><!-- #logo -->
 			
-			<?php if ( is_single() && 'projetos' == get_post_type() ){ ?>
+			<?php if ( is_single() && is_post_type_archive( 'projetos' ) && 'projetos' == get_post_type() ){ ?>
 			<div id="titulo-header-projetos">
 				<?php
 				//Pega o CPT
