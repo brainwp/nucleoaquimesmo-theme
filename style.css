@@ -472,6 +472,25 @@ a:active {
 	width: 780px;
 }
 
+#header-situacoes {
+	background: url(images/header-situacoes.jpg) no-repeat center top #D2A514;
+	margin: 0 auto 0;
+	height: 408px;
+	padding: 35px 0 0 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.link-header-situacoes {
+
+	float: left;
+    height: 400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
 #logo-header {
 	background: url(images/logo-header.png) no-repeat transparent;
 	width: 223px;
@@ -1228,8 +1247,7 @@ line-height: 1.4em;
 }
 
 div.sharedaddy div.sd-block {
-    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
-    padding: 30px 0 5px !important;
+    padding: 10px 0 5px !important;
     width: 100% !important;
 }
 
