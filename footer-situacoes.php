@@ -21,9 +21,17 @@
     	<div class="creditos">
         	<p>Alguns Direitos Reservados</p>
 	    </div><!-- .creditos -->
-    	<div class="brasa">
+	<div class="funarte">
+        	<a class="a-funarte" href="http://www.funarte.gov.br" target="_blank"></a>
+	</div><!-- .funarte -->    	
+	<div class="brasa">
         	<a class="a-brasa" href="http://www.brasa.art.br" target="_blank"></a>
-	    </div><!-- .brasa -->
+	</div><!-- .brasa -->
+	
+	<div class="klauss">
+        	<p>Este projeto foi contemplado pelo Prêmio Funarte da Dança Klauss Vianna/2013</p>
+	</div><!-- .creditos -->
+
         </div><!-- #wrapper-colophon -->
 	</footer><!-- #colophon -->
 
