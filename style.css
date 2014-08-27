@@ -545,14 +545,17 @@ display: none;
 }
 
 .hentry {
-    background: none repeat scroll 0 0 #F2F2F2;
+    background: none repeat scroll 0px 0px #FBEAD6;
     box-shadow: 0 4px 0 rgba(94, 94, 94, 0.1);
     margin: 25px auto 90px auto;
-    padding: 25px 90px 22px;
+    padding: 25px 35px 22px;
     max-width: 100%;
     overflow: hidden;
 }
 
+h1.archive-title {
+	margin: 20px 0 5px 35px;
+}
 
 /* =Menu
 -------------------------------------------------------------- */
@@ -1168,6 +1171,11 @@ span.noticias a:hover {
 margin: 20px;
 }
 
+
+#primary.blog-content {
+width: 66%;
+} 	
+
 .cada-agenda-archive {
  font-family: 'Source Sans Pro',sans-serif;
   background: none repeat scroll 0 0 #FBEAD8;
@@ -1258,6 +1266,23 @@ line-height: 1.4em;
     background: none repeat scroll 0 0 #FBEAD6;
     width: 66%;
 	float: left;
+}
+
+.sidebar-internas {
+	margin-top: 10px;	
+}
+
+span.day {
+	float: left;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.date p {
+	float: right;
+	font-size: 1.4em;
+	text-transform: uppercase;
 }
 
 #single-projetos-feira {

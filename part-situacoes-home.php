@@ -27,7 +27,7 @@
 	<div class="header-sub-home">
 		<div class="titulo-header-noticias">
 			<h2>Blog</h2>
-			<span class="noticias"><a href="<?php echo home_url('/categoria/situacoes'); ?>"><em>Ver todos os posts</em></a></span>
+			<span class="noticias"><a href="<?php echo home_url('/categoria/situacoes-posts'); ?>"><em>Ver todos os posts</em></a></span>
 		</div>
 	</div>
 
