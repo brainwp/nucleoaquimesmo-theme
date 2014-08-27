@@ -39,7 +39,7 @@
 				<div class="content-<?php echo $class; ?>">
 					<?php the_excerpt(); ?>
 				<div class="mais-<?php echo $class; ?>">
-				<a class="a-mais" href="<?php echo home_url( 'nucleo-aqui-mesmo' ) ?>">
+				<a class="a-mais" href="<?php the_permalink(); ?>">
 					<div class="mais">
 						Mais
 					</div><!-- .mais -->
