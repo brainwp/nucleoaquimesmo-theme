@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<section id="primary" class="site-content">
+	<section id="primary" class="blog-content">
 		<div id="content" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -37,7 +37,6 @@ get_header(); ?>
 
 			endwhile;
 
-			twentytwelve_content_nav( 'nav-below' );
 			?>
 
 		<?php else : ?>
@@ -47,5 +46,7 @@ get_header(); ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 
+﻿<div class="sidebar-internas">
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

@@ -52,7 +52,7 @@
                     </div>
 					<?php endwhile; ?>
 
-				<?php get_sidebar(); ?>
+				<?php get_sidebar('situacoes'); ?>
                    
 				</div>
 

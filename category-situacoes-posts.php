@@ -38,7 +38,7 @@ get_header('situacoes'); ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 ﻿<div class="sidebar-internas">
-<?php get_sidebar(); ?>
+<?php get_sidebar('situacoes'); ?>
 </div>
 <?php get_footer('situacoes'); ?>
 

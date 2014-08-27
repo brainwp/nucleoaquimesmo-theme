@@ -21,7 +21,7 @@
 
 			</div><!-- #content .site-content -->
 
-	<?php get_sidebar(); ?>  
+	<?php get_sidebar('situacoes'); ?> 
      
 
                 </article><!-- #single-projetos-feira -->
