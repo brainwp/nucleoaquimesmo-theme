@@ -1317,6 +1317,10 @@ span.day {
 	background: url(images/bg-footer-home.jpg) center top #540502;
 }
 
+#colophon.situacoes {
+	background: #CE9F13;
+}
+
 #wrapper-colophon {
 	max-width: 960px;
 	margin: 0 auto;

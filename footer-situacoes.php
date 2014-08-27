@@ -14,7 +14,7 @@
 
 <?php wp_footer(); ?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="situacoes" role="contentinfo">
 	    <div id="wrapper-colophon">
         <div class="logo-rodape">
     	</div><!-- .logo-rodape -->
