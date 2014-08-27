@@ -38,8 +38,8 @@
 							<?php if ( count($post->ancestors) == 1) echo wp_list_pages("post_type=projetos&depth=1&title_li=&child_of=".$post->ID."&echo=0"); ?>
 		
                         <?php the_content(); ?>
-                        <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'celestial_theme' ), 'after' => '</div>' ) ); ?>
-                        <?php edit_post_link( __( 'Clique aqui para Editar&gt;&gt;', 'celestial_theme' ), '<span class="edit-link">', '</span>' ); ?>
+                        <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'nucleoaquimesmo-theme' ), 'after' => '</div>' ) ); ?>
+                        <?php edit_post_link( __( 'Clique aqui para Editar&gt;&gt;', 'nucleoaquimesmo-theme' ), '<span class="edit-link">', '</span>' ); ?>
                     </div><!-- .entry-content -->
                 </article><!-- #single-projetos -->
                 
