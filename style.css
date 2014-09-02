@@ -475,7 +475,7 @@ a:active {
 #header-situacoes {
 	background: url(images/header-situacoes.jpg) no-repeat center top #D2A514;
 	margin: 0 auto 0;
-	height: 408px;
+	height: 320px;
 	padding: 35px 0 0 0;
 	position: relative;
 	text-align: center;
@@ -488,8 +488,8 @@ a:active {
 
 .link-header-situacoes {
 
-	float: left;
-    height: 400px;
+    float: left;
+    height: 340px;
     margin: 0 auto;
     width: 100%;
 }
