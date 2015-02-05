@@ -1253,13 +1253,15 @@ line-height: 1.4em;
     background: none repeat scroll 0 0 #FBEAD6;
     margin-top: 25px;
     padding: 25px;
+    width: 96%;
 }
 
 #single-projetos {
     background: none repeat scroll 0 0 #FBEAD6;
     margin-top: 25px;
     padding: 25px;
-	display: table;
+    display: table;
+    width: 96%;
 }
 
 #content.with-sidebar {
