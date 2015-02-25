@@ -17,12 +17,11 @@
                         <?php the_content(); ?>
                         <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'nucleoaquimesmo-theme' ), 'after' => '</div>' ) ); ?>
                         <?php edit_post_link( __( 'Clique aqui para Editar&gt;&gt;', 'nucleoaquimesmo-theme' ), '<span class="edit-link">', '</span>' ); ?>
-                    </div><!-- .entry-content -->
 			<?php endwhile; // end of the loop. ?>
 
  <?php wp_reset_postdata(); // reset the query ?>  
 
-		<div class="entry-content">
+	<?php get_sidebar('situacoes'); ?>
 			
 	<div class="header-sub-home">
 		<div class="titulo-header-noticias">
@@ -51,15 +50,12 @@
 			        </div>
                     </div>
 					<?php endwhile; ?>
-
-				<?php get_sidebar('situacoes'); ?>
                    
 				</div>
 
 		</div><!-- .entry-content -->
 
                 </article><!-- #single-projetos-feira -->
-                
 			
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->

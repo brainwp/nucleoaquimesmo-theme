@@ -484,6 +484,7 @@ a:active {
 
 .header-sub-home {
 	width: 66%;
+	float: left;
 }
 
 .link-header-situacoes {
@@ -1042,16 +1043,16 @@ span.noticias a:hover {
 }
 
 .todas-noticias {
-    float: left;
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    width: auto;
+	float: left;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	width: 67%;
 }
 
 .cada-noticia {
     float: left;
-    width: 32%;
+    width: 49%;
     background: none repeat scroll 0% 0% #FAF1E8;
     margin: 0px 25px 5px 0px;
  
@@ -1367,11 +1368,11 @@ span.day {
 }
 
 .funarte {
-	width: 105px;
+	width: 290px;
 	height: 60px;
-	background: url("images/logo-funarte-situacoes.png") repeat scroll 0 0 transparent;
+	background: url("images/logo-funarte-gov-situacoes.png") no-repeat scroll 0 0 transparent;
 	float: right;
-	margin: 50px 18px 0px -15px;
+	margin: 50px 14px 0px -15px;
 	opacity:0.85;
 	-moz-opacity: 0.85;
 	filter: alpha(opacity=85);
@@ -1394,7 +1395,7 @@ span.day {
     font-size: 0.8em;
     font-weight: 500;
     font-style: none;
-    margin: 110px -185px 0px 0px;
+    margin: 110px -372px 0px 0px;
     letter-spacing: 0.4px;
 }
 
