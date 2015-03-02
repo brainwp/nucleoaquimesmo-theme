@@ -35,22 +35,22 @@ function create_post_type_projetos() {
      * passando-lhe os labels e parâmetros de controlo.
      */
     register_post_type( 'projetos', array(
-	    'labels' => $labels,
-	    'public' => true,
-	    'publicly_queryable' => true,
-	    'show_ui' => true,
-	    'show_in_menu' => true,
-	    'has_archive' => 'projetos',
-	    'query_var' => true,
+		'labels' => $labels,
+		'public' => true,
+		'publicly_queryable' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'has_archive' => 'projetos',
+		'query_var' => true,
 		'rewrite' => array(
-		 'slug' => 'projetos',
-		 'with_front' => false,
+		'slug' => 'projetos',
+		'with_front' => false,
 	    ),
-	    'capability_type' => 'post',
-	    'hierarchical' => true,
-	    'menu_position' => null,
-	    'supports' => array('title','editor','author','thumbnail','excerpt','page-attributes'),
-		'taxonomies' => array( 'post_tag' )
+	'capability_type' => 'post',
+	'hierarchical' => true,
+	'menu_position' => null,
+	'supports' => array('title','editor','author','thumbnail','revisions','excerpt','page-attributes'),
+	'taxonomies' => array( 'post_tag' )
 	    )
     );
 
