@@ -515,15 +515,15 @@ a:active {
 }
 
 body.single-feira {
-background: url(images/bg-feira-03.jpg) fixed center top !important; 
+	background: url(images/bg-feira-03.jpg) fixed center top !important; 
 }
 
 .page-template-page-home-php .sharedaddy {
-display: none;
+	display: none;
 }
 
 .post-type-archive-projetos .sharedaddy {
-display: none;
+	display: none;
 }
 
 #footer-frill {
@@ -726,8 +726,7 @@ h1.archive-title {
 
 
 #single-navigation-feira ul.children{
-
-display: none;
+	display: none;
 }
 #single-navigation-feira li, #single-navigation li {
 	float: left;
@@ -891,8 +890,8 @@ display: none;
 }
 
 ul#gallery {
-margin-top:1.5em;
-overflow: hidden;
+	margin-top:1.5em;
+	overflow: hidden;
 }
 
 .cada-projeto {
@@ -998,7 +997,7 @@ h2.titulo-projetos {
 	text-transform: uppercase;
 }
 a .titulo-projetos {
-color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .resumo-projetos {
@@ -1169,35 +1168,36 @@ span.noticias a:hover {
 }
 
 #primary.agenda-content {
-margin: 20px;
+	margin: 20px;
 }
 
 
 #primary.blog-content {
-width: 66%;
+	width: 66%;
 } 	
 
 .cada-agenda-archive {
- font-family: 'Source Sans Pro',sans-serif;
-  background: none repeat scroll 0 0 #FBEAD8;
-    float: left;
-    margin-right: 2%;
-    min-height: 170px;
-    width: 31%;
+	font-family: 'Source Sans Pro',sans-serif;
+	background: none repeat scroll 0 0 #FBEAD8;
+	float: left;
+	margin-right: 2%;
+	min-height: 245px;
+	width: 31%;
 	margin-bottom: 2%;
+	display: inline-block;
 }
 
 .esquerda-agenda-archive {
-  float: left;
-    margin-right: 5%;
-    width: 26%;
+	float: left;
+	margin-right: 5%;
+	width: 26%;
 }
 
 .direita-agenda-archive {
-float: left;
-width: 66%;
-margin-top: 6%;
-}
+	float: left;
+	width: 66%;
+	margin-top: 3%;
+	}
 
 
 #data-evento-agenda {
@@ -1211,7 +1211,7 @@ margin-top: 6%;
 
 
 .mes-agenda {
-color: #FFFFFF;
+	color: #FFFFFF;
     font-size: 1em;
     font-weight: bolder;
     text-align: center;
@@ -1239,15 +1239,17 @@ color: #FFFFFF;
 }
 
 .titulo-evento {
-font-size: 1.3em;
-font-weight: bold;
-line-height: 1.3em;
-margin-bottom: 5%;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin-bottom: 5%;
 }
 
 .excerpt-evento {
-line-height: 1.4em;
-
+	line-height: 1.4em;
+	display: block;
+	overflow: auto;
+	margin-bottom: 10px;
 }
 
 #single-page {
@@ -1440,7 +1442,7 @@ a.zilla-button, a.zilla-button:visited {
 }
 
 .sharedaddy {
-margin-top: 20px;
+	margin-top: 20px;
 }
 
 /* =Asides

@@ -22,7 +22,7 @@
         	<p>Alguns Direitos Reservados</p>
 	    </div><!-- .creditos -->
     	<div class="brasa">
-        	<a class="a-brasa" href="http://www.brasa.art.br" target="_blank"></a>
+        	<a class="a-brasa" href="http://brasa.art.br" target="_blank"></a>
 	    </div><!-- .brasa -->
         </div><!-- #wrapper-colophon -->
 	</footer><!-- #colophon -->
