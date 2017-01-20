@@ -223,8 +223,9 @@ function ag_titulo() {
 	add_action( 'restrict_manage_posts', 'agenda_admin_posts_filter_restrict_manage_posts' );
 
 	function agenda_posts_filter( $query ){
-		global $post;
-		if ( $post->post_type=='agenda' && is_admin() && isset($_GET['filter_status_post']) && $_GET['filter_status_post'] != '') {
+		// global $query;
+		// print_r($query);
+		if ( $query->post_type=='agenda' && is_admin() && isset($_GET['filter_status_post']) && $_GET['filter_status_post'] != '') {
 			$query->query_vars['post_status'] = $_GET['filter_status_post'];
 		}
 	}
